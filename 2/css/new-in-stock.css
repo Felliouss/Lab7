@@ -1,0 +1,64 @@
+#new-in-stock{
+    margin-top: 200px;
+}
+#new-in-stock ._text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 70px;
+    width: fit-content;
+    padding-left: 50px;
+    font-weight: bold;
+}
+#new-in-stock .head{
+    border-bottom: 2px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+#new-in-stock .head a{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+#new-in-stock .link-wrapper{
+    padding-right: 60px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+#new-in-stock .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#new-in-stock .content>*{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#new-in-stock img{
+    height: 254px;
+    width: 453px;
+}
+#new-in-stock .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#new-in-stock .name,#new-in-stock .price{
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+}
+#new-in-stock .colors{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+}

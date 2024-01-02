@@ -1,0 +1,29 @@
+#categories{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Roboto';
+}
+#categories .for-sight,#categories .for-sun{
+    background-size: cover;
+    width: 720px;
+    height: 620px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+#categories .for-sight{
+    background: url(../assets/sight-glasses.png) no-repeat;
+}
+#categories .for-sun{
+    background: url(../assets/sun-glasses.png) no-repeat;
+}
+#categories a{
+    width: 280px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFBCBC;
+}

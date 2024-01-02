@@ -1,0 +1,40 @@
+#tijn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 220px;
+    width: 100%;
+    height: 620px;
+    background-color: #AABAD0;
+    font-family: 'Roboto';
+}
+#tijn img{
+    height: 620px;
+    width: 648px;
+}
+#tijn .text-block{
+    margin-left: 70px;
+    margin-top: 280px;
+}
+#tijn .flex{
+    display: flex;
+    flex-direction: column;
+}
+#tijn .model-name{
+    font-size: 70px;
+}
+#tijn .lower-text{
+    font-size: 20px;
+}
+#tijn .upper-text{
+    font-size: 19px;
+}
+#tijn ._link{
+    background-color: #FFBCBC;
+    width: 290px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 88px;
+    font-weight: 500;
+}

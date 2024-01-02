@@ -1,0 +1,367 @@
+@media(max-width:1439px){
+    .women-shop,.men-shop,#categories .for-sight,#categories .for-sun{
+        width: 432px;
+        height: 372px;
+        background-size: contain;
+    }
+    #shops a,#categories a{
+        width: 238px;
+        height: 93.5px;
+    }
+    #new-in-stock img,#bestsellers img{
+        width: 385.05px;
+        height: 215.9px;
+    }
+    #tijn{
+        margin-top: 120px;
+    }
+}
+@media(max-width: 1300px){
+    #brands .content{
+        font-size: 125px;
+    }
+    #company-info{
+        margin-top: 100px;
+        width: 90%;
+    }
+    #company-info img{
+        margin: 0;
+    }
+}
+@media(max-width:1272px){
+    #intro__img{
+        left: 37%;
+    }
+}
+@media(max-width: 1024px){
+    #tijn{
+        justify-content: space-between;
+    }
+    #tijn .text-block{
+        margin-left: 0;
+    }
+}
+@media(max-width: 960px){
+    #tijn{
+        height: 372px;
+    }
+    #tijn img{
+        width: 388.8px;
+        height: 372px;
+    }
+    #tijn .text-block{
+        margin-top: 32px;
+    }
+}
+@media(max-width: 912px){
+    #company-info{
+        width: 100%;
+    }
+    #company-info .head{
+        font-size: 55px;
+    }
+    #company-info img{
+        width: 315px;
+        height: 367.5px;
+    }
+}
+@media(max-width: 890px){
+    .women-shop,.men-shop,#categories .for-sight,#categories .for-sun{
+        width: 360px;
+        height: 310px;
+        background-size: contain;
+    }
+    #new-in-stock{
+        margin-top: 100px;
+    }
+    #new-in-stock img,#bestsellers img{
+        width: 226.5px;
+        height: 127px;
+    }
+    #brands .content{
+        font-size: 100px;
+    }
+}
+@media(max-width: 800px){
+    .sun,.optical,.guide,.bucket{
+        width: 20%;
+    }
+    .buc    ket_in{
+        padding-left: 40px;
+    }
+    #shops,#categories{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #brands .content{
+        font-size: 80px;
+    }
+    #company-info .right{
+        padding-left: 3%;
+    }
+    #company-info .right>*{
+        font-size: 18px;
+    }
+    #company-info .head{
+        font-size: 42px;
+    }
+    #company-info img{
+        width: 252px;
+        height: 294px;
+    }
+    #intro{
+        height: unset;
+        margin-bottom: 120px;
+    }
+    #intro__img{
+        width: 341.6px;
+        height: 404.6px;
+        top: 200px;
+        left: 47%;
+    }
+    #intro__text{
+        font-size: 66px;
+    }
+    #intro .text-block{
+        margin-left: 80px;
+    }
+    footer .col{
+        font-size: 15px;
+    }
+    #brands,#bestsellers,#categories{
+        margin-top: 100px;
+    }
+}
+@media(max-width: 730px){
+    #intro__text{
+        margin-top: 280px;
+    }
+    #intro__img{
+        top: 150px;
+    }
+    #intro .text-block{
+        margin-left: 60px;
+    }
+    #new-in-stock ._text,#bestsellers ._text,#brands ._text{
+        font-size: 55px;
+    }
+    .bucket{
+        padding-left: 40px;
+    }
+}
+@media(max-width: 700px){
+    footer .right{
+        width: 75%;
+    }
+    .f_all>*{
+        margin-left: 5%;
+    }
+    #tijn{
+        height: 310px;
+    }
+    #tijn img{
+        width: 320px;
+        height: 310px;
+    }
+    #tijn ._link{
+        margin-top: 74px;
+        width: 232px;
+        height: 96px;
+    }
+    #tijn .model-name{
+        font-size: 55px;
+    }
+    #tijn .lower-text{
+        font-size: 16px;       
+    }
+    #intro__img{
+        width: 292.8px;
+        height: 346.8px;
+    }
+    #intro .text-block{
+        margin-left: 45px;
+    }
+    #intro__text{
+        font-size: 58px;
+        margin-top: 240px;
+    }
+    footer .left{
+        padding-left: 3%;
+    }
+    footer .tip{
+        font-size: 15px;
+    }
+    footer .right{
+        width: 85%;
+    }
+    footer .right>*{
+        text-align: center;
+    }
+    .f_logo{
+        font-size: 50px;
+    }
+    footer .border1{
+        margin: 0;
+    }
+    footer .author{
+        font-size: 16px;
+    }
+}
+@media(max-width: 610px){
+    #intro__img{
+        width: 244px;
+        height: 289px;
+        left: 54%;
+    }
+    #intro__text{
+        font-size: 52px;
+        margin-top: 210px;
+    }
+    #new-in-stock ._text,#bestsellers ._text,#brands ._text{
+        font-size: 46px;
+    }
+    footer .right{
+        width: 75%;
+    }
+    footer .links{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    footer .col{
+        margin-right: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width: 570px){
+    #tijn{
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    #new-in-stock ._text,#bestsellers ._text,#brands ._text{
+        font-size: 40px;
+    }
+    #brands .content{
+        font-size: 65px;
+    }
+    #company-info img{
+        width: calc(252px*.85);
+        height: calc(294px*.85);
+    }
+    #company-info .right{
+        padding: 0 1%;
+    }
+    #company-info .right>*{
+        font-size: 16px;
+    }
+    #company-info .head{
+        font-size: 35px;
+    }
+}
+@media(max-width: 540px){
+    #intro__text{
+        font-size: 43px;
+        margin-top: 190px;
+    }
+    #intro__img{
+        width: calc(195.2px*1.07);
+        height: calc(231.2px*1.07);
+    }
+    #new-in-stock .link-wrapper,#bestsellers .link-wrapper,#brands .link-wrapper{
+        padding: 0 5px 0 0;
+        text-align: end;
+    }
+    #new-in-stock ._text,#bestsellers ._text,#brands ._text{
+        font-size: 35px;
+        padding-left: 30px;
+    }
+    .burger{
+        display: grid;
+    }
+    header nav{
+        display: none;
+    }
+}
+@media(max-width: 485px){
+    #logo_in{
+        font-size: 48px;
+    }
+    #intro__text{
+        font-size: 38px;
+        margin-top: 160px;
+    }
+    #intro__img{
+        top: 120px;
+        left: 44%;
+    }
+    #company-info{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #company-info .head{
+        text-align: center;
+    }
+    #brands .content{
+        font-size: 55px;
+    }
+    #shops a,#categories a{
+        width: calc(238px*.8);
+        height: calc(93.5px*.8);
+    }
+}
+@media(max-width: 395px){
+    #company-info{
+        margin-top: 50px;
+    }
+    #brands .content{
+        font-size: 45px;
+        padding: 1%;
+    }
+    #intro .text-block{
+        margin-left: 0px;
+    }
+    #intro__text{
+        margin-top: 150px;
+        font-size: 30px;
+    }
+    #intro__img{
+        left: 33%;
+    }
+    #new-in-stock ._text,#bestsellers ._text,#brands ._text{
+        font-size: 30px;
+        padding-left: 0px;
+    }
+    #shops a,#categories a{
+        width: calc(238px*.6);
+        height: calc(93.5px*.6);
+    }
+    footer .marg-right{
+        margin-right: 2%;
+        width: 50%;
+    }
+}
+@media(max-width: 360px){
+    .women-shop,.men-shop,#categories .for-sight,#categories .for-sun{
+        width: calc(360px*.88);
+        height: calc(310px*.88);
+        background-size: contain;
+    }
+    footer .links a{
+        margin-bottom: 9px;
+    }
+}
+@media(max-width:325px){
+    #tijn{
+        width: 320px;
+        position: relative;
+        left: -8px;
+    }
+}
+
+/* footer{
+    display: none;
+} */

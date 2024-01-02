@@ -1,0 +1,32 @@
+#shops{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#shops a{
+    background-color: #FFBCBC;
+    width: 280px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+}
+.women-shop,.men-shop{
+    width: 720px;
+    height: 620px;
+    background-size: contain;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.women-shop{
+    background: url(../assets/women-shop.png) no-repeat;
+}
+.men-shop{
+    background: url(../assets/men-shop.png) no-repeat;
+}

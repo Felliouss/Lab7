@@ -1,0 +1,123 @@
+footer{
+    height: auto;
+    width: 100%;
+
+    position: absolute;
+    left: 0;
+
+    background: rgba(170, 186, 208, 1);
+    font-family: 'Roboto';
+}
+.f_all>*{
+    margin-left: 8%;
+}
+.f_upper{
+    height: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.f_logo{
+    font-size: 69px;
+}
+.marg-right{
+    margin-right: 10%;
+    font-weight: bold;
+}
+.border1{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin: 0;
+}
+.f_flex{
+    display: flex;
+    flex-direction: row;
+}
+footer .right{
+    margin-top: 40px;
+    width: 65%;
+}
+footer .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer .links a{
+    width: fit-content;
+}
+footer .links a:hover,footer .links a:focus{
+    text-decoration: underline;
+}
+footer .links>*:last-child{
+    margin-right: 8%;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 400;
+}
+footer .col>*{
+    margin-bottom: 15px;
+}
+.f_b{
+    font-size: 20px;
+    font-weight: bold;
+}
+.author{
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.copy{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.own{
+    margin-top: 4px;
+}
+footer .left{
+    position: relative;
+    font-size: 18px;
+    padding-left: 4%;
+    padding-top: 40px;
+}
+footer .left::before{
+    content: "";
+    background-color: black;
+    height: 75%;
+    width: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+footer .left .rect1{
+    width: 65%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 2px;
+    background-color: black;
+}
+footer .left .column{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+footer .left .column>*{
+    margin-bottom: 10px;
+}
+footer .social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.facebook,.insta{
+    width: 30px;
+    height: 30px;
+}
